@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	    <meta charset="UTF-8">
+	</head>
+	<body>
+	<center>
+	    <button onclick="bulboff()">off</button>
+		<img src="off.png" id="bulb">
+		<button onclick="bulbon()">on</button>
+		
+	</center>
+		
+		<script>
+		    function bulboff(){
+			    let img=document.getElementById('bulb')
+				img.src="off.png"
+			}
+			function bulbon(){
+			    let img=document.getElementById('bulb')
+				img.src="on.png"
+			}
+		</script>
+	</body>
+</html>
